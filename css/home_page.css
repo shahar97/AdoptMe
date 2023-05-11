@@ -1,0 +1,58 @@
+
+body,html{ height: 100%;
+background-color:  #fafafa;}
+
+*{box-sizing: border-box; margin: 0px;}
+
+
+.menu{
+    text-align: right;
+    font-size:20px;
+    background-color: rgb(165, 235, 238);
+}
+.page-image-title {
+    position: relative;
+    margin-bottom: 1%;
+}
+.explanation text{
+    text-align: center;
+    
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #ffe9e3;
+    color: white;
+  }
+.fst-italic{
+    text-align: center;
+}
+
+ 
+h2{
+    color: lightsalmon;
+    text-align: center;
+}
+
+ video {
+    height: 20%;
+    width: 50%;
+    display: block;
+  margin: auto;
+  
+  }
+
+#big{
+    height:100%;
+    width:100%;
+   
+}
+#headline {
+    color: darksalmon;
+}
+p{padding:1%;}
+
+
+
+
+

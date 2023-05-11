@@ -1,0 +1,42 @@
+body,html{ height: 100%;
+background-color:  #fafafa;}
+
+*{box-sizing: border-box; margin: 0px;}
+
+
+p{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: #ffe9e3; 
+    clear: both;
+
+  }
+.logo{
+    width: 3%;
+    height: 3%;
+}
+h2{
+    color: lightsalmon;
+    text-align: center;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height:20%;
+    
+}
+.image{
+    float:left;
+    width:33%;
+    height:100%;
+}
+.text{
+    font-size:20px;
+    text-align: center;
+}
+

@@ -1,0 +1,151 @@
+body,html{ height: 100%;
+background-color:  #fafafa;}
+
+*{box-sizing: border-box; margin: 0px;}
+
+.menu {
+    text-align: right;
+    font-size: 20px;
+    background-color: rgb(165, 235, 238);
+}
+
+.page-image-title {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+     background-color: #ffe9e3; 
+    clear: both;
+
+}
+
+.fst-italic {
+    text-align: center;
+}
+
+#headline {
+    color: darksalmon
+}
+
+h2 {
+    color: lightsalmon;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 76px;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+
+}
+
+/* Style the tab links */
+.tablinks {
+    background-color: #f1f1f1;
+    border: 3px solid #ccc;
+    border-bottom: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+
+
+}
+
+/* Style the active tab link */
+.tablinks.active {
+    background-color: darksalmon;
+}
+
+
+#img1{width: 70%;
+    margin-left:5%;
+}
+
+
+
+.p1 {text-indent: 10px;
+    padding:15px;
+}
+
+
+.explanation_text {
+
+    text-align: center;
+    padding:15px;
+}
+
+#foster {
+    font-style: oblique;
+    font-size: 24px;
+    align-items: center;
+
+    display: block;
+    margin: 30px auto;
+
+}
+
+
+
+
+h5 {
+    font-style: oblique;
+    font-size: 24px;
+    align-items: center;
+    color: lightsalmon;
+}
+
+
+
+h6 {
+    font-style: oblique;
+    font-size: 24px;
+    align-items: center;
+    color: lightsalmon;
+}
+
+
+#b1 {
+    width: 10px;
+    /* adjust as needed */
+    height: 10px;
+}
+
+
+
+.custom-button:hover {
+    background-color: #FFCC81;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+.logo{
+    width: 3%;
+    height: 3%;
+}
+
+@keyframes example {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: #FFCC81;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    #img1{width: 100%;
+    margin-top: 20px;}
+}
